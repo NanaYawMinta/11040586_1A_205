@@ -6,7 +6,7 @@ const encounterRoutes = require('./routes/encounterRoutes');
 const vitalRoutes = require('./routes/vitalRoutes');
 
 const app = express();
-const PORT = 3002;
+const PORT = 3000;
 
 
 mongoose.connect('mongodb://localhost:27017/ugmc', { useNewUrlParser: true, useUnifiedTopology: true });
